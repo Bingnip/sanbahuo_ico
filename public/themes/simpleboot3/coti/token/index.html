@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta id="pagemeta" page="token" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="apple-touch-icon" sizes="180x180" href="__STATIC__/coti/img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="__STATIC__/coti/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="__STATIC__/coti/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="__STATIC__/coti/img/favicon/manifest.json" />
+  <link rel="mask-icon" href="__STATIC__/coti/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+  <title>COTI - Token Sale</title>
+  <script type="text/javascript">
+       document.querySelector('html').style.opacity = 0
+   
+       document.addEventListener('DOMContentLoaded', function(event) {
+         window.addEventListener('load', function() {
+           document.querySelector('html').style.opacity = 100
+         })
+       })
+     </script>
+  <meta name="description" content="COTI - Currency of the Internet" />
+  <meta name="keywords" content="COTI, crypto, cryptocurrency, currency, payment processing, ico, ige" />
+  <meta name="revisit-after" content="1 days" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <link rel="author" content="COTI Inc." />
+  <link rel="publisher" content="COTI Inc." />
+  <meta property="og:title" content="COTI - Currency of the Internet" />
+  <meta property="og:description" content="A digital currency built for payments" />
+  <meta property="og:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta property="og:url" content="//coti.io" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:title" content="COTI - Currency of the Internet" />
+  <meta name="twitter:description" content="A digital currency built for payments" />
+  <meta name="twitter:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta name="twitter:url" content="//coti.io" />
+  <meta name="twitter:card" content="player" />
+  <link rel="stylesheet" type="text/css" href="__STATIC__/coti/css/token.css?v=871efcc0560" />
+ </head>
+ <body>
+  <div class="email-modal hide">
+   <div class="email-modal-success hidden">
+    <div class="email-modal-success-bg"></div>Details submitted successfully.
+   </div>
+   <div class="email-modal-container">
+    <i class="fa fa-close" aria-hidden="true"></i>
+    <h3 class="txt-highlight">Thank you for your interest!</h3>
+    <h5>Fill in your details to secure your place</h5>
+    <p class="heading-blurb">You have no obligation to make an actual purchase when the token sale starts.</p>
+    <form id="email-form-3" novalidate="">
+     <input type="text" name="name" id="name" placeholder="YOUR NAME" />
+     <p class="msg error-name hidden"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Your name is required.</p>
+     <input type="text" name="phone" id="phone" placeholder="YOUR PHONE NUMBER (OPTIONAL)" />
+     <p class="msg error-phone hidden"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Please specify a valid phone number or leave blank.</p>
+     <input type="text" name="committed_amount" id="committed_amount" placeholder="ESTIMATED PURCHASE AMOUNT (USD)" />
+     <p class="msg error-amount hidden"><i class="fa fa-times-circle-o" aria-hidden="true"></i> Please specify a valid amount.</p>
+     <p class="msg loading hidden">Please wait...</p>
+     <p class="msg error-submit hidden"><i class="fa fa-times-circle-o" aria-hidden="true"></i> There was an error submitting your email.</p>
+     <button type="submit" class="submit">Submit</button>
+     <p class="fine-print">By submitting this information you understand that COTI will do its best to reserve tokens for you.</p>
+    </form>
+   </div>
+  </div>
+  <div id="video-popup" class="hide">
+   <h3 class="modal-close"><i class="fa fa-close" aria-hidden="true"></i></h3>
+   <div id="videowrap">
+    <iframe id="videoplayer" frameborder="0" allowfullscreen=""></iframe>
+   </div>
+  </div>
+  <include file="coti_public@header">
+  <section id="overview">
+   <div class="content">
+    <div class="overview-copy-container">
+     <h3 class="txt-highlight">Token Sale</h3>
+     <h1>COTI is unlocking the full potential of global commerce.</h1>
+     <h2 id="tokenhead2">Token amount is limited,<br />Claim your free COTI coins now.</h2>
+     <h4 id="acceptCreditCartTitle">*token amount is limited</h4>
+     <form id="email-form-1" novalidate="">
+      <div class="input-container">
+       <div class="email-icon"></div>
+       <input type="email" name="email1" id="email1" placeholder="YOUR EMAIL" required="" />
+       <p class="msg success hidden">Thank You. You've been added to the list.</p>
+       <p class="msg loading hidden">Please wait...</p>
+       <p class="msg error hidden">There was an error submitting your email.</p>
+       <p class="msg error-validation hidden">Please ensure your email was entered correctly.</p>
+      </div>
+      <button type="submit" class="submit">APPLY NOW</button> 
+      <a href="https://t.me/COTInetwork" target="_blank" onclick="track(&quot;Telegram Redirect&quot;, {placement: &quot;Home Leaderboard&quot;})"><button type="button" class="telegram-button"><img src="__STATIC__/coti/img/telegram-button.svg" />Telegram</button></a>
+     </form>
+     <div class="token-header-buttons">
+      <a href="__STATIC__/coti/en/files/COTI-overview-document.pdf" target="_blank" onclick="track(&quot;Overview Download&quot;, {placement: &quot;Token Leaderboard&quot;})"><button unselectable="on" class="overview">Overview Document</button></a> 
+      <a href="__STATIC__/coti/en/files/COTI-technical-whitepaper.pdf" target="_blank" onclick="track(&quot;Whitepaper Download&quot;, {placement: &quot;Token Leaderboard&quot;})"><button unselectable="on" class="technical">Technical Whitepaper</button></a> 
+      <a href="__STATIC__/coti/en/files/COTI-Token-Sale-Summary.pdf" target="_blank" onclick="track(&quot;Economy Download&quot;, {placement: &quot;Token Leaderboard&quot;})"><button unselectable="on" class="token-economy">TOKEN ECONOMY</button></a>
+     </div>
+    </div>
+    <div class="overview-video-container">
+     <div class="overview-hex">
+      <div class="overview-hex-image">
+       <div class="overview-hex-play"></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="news-header">
+    <h3 class="txt-highlight">As Seen On</h3>
+    <div class="logos-container">
+     <div class="investing">
+      <a href="https://www.investing.com/studios/article-148" target="_blank"></a>
+     </div>
+     <div class="inc">
+      <a href="https://www.inc.com/yoav-vilner/5-of-sectors-blockchain-is-currently-disrupting.html" target="_blank"></a>
+     </div>
+     <div class="tc">
+      <a href="https://techcrunch.com/2017/11/23/in-israel-a-blockchain-and-crypto-hyper-cluster-is-just-getting-started" target="_blank"></a>
+     </div>
+     <div class="ccn">
+      <a href="https://www.ccn.com/meet-coti-the-blockchain-protocol-that-restores-trust-in-the-payments-ecosystem/" target="_blank"></a>
+     </div>
+     <div class="forbes">
+      <a href="https://www.forbes.com/sites/rogeraitken/2017/12/23/bitcoin-beyond-how-digital-currencies-can-solve-consumer-payment-needs" target="_blank"></a>
+     </div>
+     <div class="cointelegraph">
+      <a href="https://cointelegraph.com/news/kpmg-joins-the-wall-street-blockchain-alliance" target="_blank"></a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="basics">
+   <div class="content">
+    <h3 class="txt-highlight">The Basics</h3>
+    <div>
+     <div class="basics-what-coti"></div>
+    </div>
+    <div>
+     <h2>What is COTI?</h2>
+     <p>COTI is a payments transaction network that was built from the ground-up to solve the payments challenges of today. Developed by payments industry veterans, COTI combines the best of traditional payments systems with the best of blockchain technologies to offer the fastest, easiest, most cost-effective and most trusted way to pay. COTI will be holding a token sale for its native currency, for more details refer to the <a href="__STATIC__/coti/en/files/COTI-overview-document.pdf" target="_blank" onclick="track(&quot;Overview Download&quot;, {placement: &quot;Token Basics Section&quot;})">Overview Document</a> and <a href="__STATIC__/coti/en/files/COTI-technical-whitepaper.pdf" target="_blank" onclick="track(&quot;Whitepaper Download&quot;, {placement: &quot;Token Basics Section&quot;})">Technical Whitepaper</a>.</p>
+    </div>
+    <div>
+     <h2>What is a token sale?</h2>
+     <p>A token sale, sometimes referred to as an initial coin offering (ICO), is form of crowd-funding for digital currency-related projects. In token sales, purchasers buy units of a new currency in exchange for legal tender or other digital currencies, such as Bitcoin or Ethereum.</p>
+    </div>
+    <div>
+     <div class="basics-what-token"></div>
+    </div>
+    <div>
+     <div class="basics-participate"></div>
+    </div>
+    <div>
+     <h2></h2>
+     <p>Participating in COTI’s token sale will be straight-forward. Enter your email in the form provided above to receive a notification when the details of the token sale are released. During the sale, tokens will be available for purchase using card, bank wire, Bitcoin and Ethereum. Any COTI tokens that you purchase will be delivered to you at the end of the token sale.</p>
+    </div>
+   </div>
+  </section>
+  <section id="status-offering">
+   <div class="content">
+    <div>
+     <h3 class="txt-highlight">Status</h3>
+     <h2>The token sale starts soon</h2>
+     <p>Tokens are currently being sold to a small group of strategic advisors. This phase of the sale is nearly complete. When this phase ends, COTI will release details of the next phase – the first opportunity for members of the public to obtain COTI tokens.</p>
+    </div>
+    <div>
+     <div class="status-offering-status"></div>
+    </div>
+    <div>
+     <div class="status-offering-offering"></div>
+    </div>
+    <div>
+     <h3 class="txt-highlight">The Offering</h3>
+     <h2>Be one of the very first owners of COTI tokens</h2>
+     <p>The total amount of COTI tokens available for sale is limited. Once the cap is reached the sale will be closed.</p>
+    </div>
+   </div>
+  </section>
+  <section id="allocations">
+   <div class="content">
+    <h3 class="txt-highlight">Token Allocations</h3>
+    <div>
+     <div class="allocations-allocations"></div>
+    </div>
+    <div>
+     <ul class="bullet-list">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+     </ul>
+     <ul class="word-list">
+      <li>Token Sale</li>
+      <li>Reserve</li>
+      <li>Team</li>
+      <li>Early backers, Partners and Advisors</li>
+      <li>Incentive programs</li>
+      <li>Liquidity</li>
+     </ul>
+     <ul class="percent-list">
+      <li>30%</li>
+      <li>22%</li>
+      <li>15%</li>
+      <li>10%</li>
+      <li>13%</li>
+      <li>10%</li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <section id="proceeds">
+   <div class="content">
+    <h3 class="txt-highlight">Use of Proceeds</h3>
+    <div>
+     <ul class="bullet-list">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+     </ul>
+     <ul class="word-list">
+      <li>R&amp;D</li>
+      <li>Cyber Security</li>
+      <li>Licenses and Capital Requirement</li>
+      <li>Legal and Compliance</li>
+      <li>Marketing</li>
+      <li>Merchant Services</li>
+      <li>Market-Maker</li>
+      <li>COTI Fund</li>
+      <li>Operational Expenses</li>
+     </ul>
+     <ul class="percent-list">
+      <li>30%</li>
+      <li>5%</li>
+      <li>12%</li>
+      <li>9%</li>
+      <li>15%</li>
+      <li>8%</li>
+      <li>7%</li>
+      <li>7%</li>
+      <li>7%</li>
+     </ul>
+    </div>
+    <div>
+     <div class="proceeds-proceeds"></div>
+    </div>
+   </div>
+  </section>
+  <include file="coti_public@footer">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" async="">
+      /**/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="coti.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();/**/
+    </script>
+  <script type="text/javascript" async="">
+      document.addEventListener('DOMContentLoaded', function(event) {
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+          analytics.load("mfrbj31pM9eetiPaEV67K2RtJbJ8YbVK");
+          analytics.page(document.getElementById('pagemeta').getAttribute('page'));
+        }}();
+      })
+    </script>
+  <script type="text/javascript" id="hs-script-loader" async="" defer="" src="https://js.hs-scripts.com/3892220.js"></script>
+  <script type="text/javascript" src="https://coti.io/en/js/application.js?v=871efcc0560&quot;"></script>
+ </body>
+</html>

@@ -1,0 +1,62 @@
+<?php
+// +----------------------------------------------------------------------
+// | ThinkCMF [ WE CAN DO IT MORE SIMPLE ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2013-2018 http://www.thinkcmf.com All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: Powerless < wzxaini9@gmail.com>
+// +----------------------------------------------------------------------
+namespace app\user\model;
+
+use think\Db;
+use think\Model;
+
+class ReleaseModel extends Model
+{
+
+    //申购
+    public function index($user)
+    {
+
+        $userInfo=cmf_get_current_user_id();
+
+        $user   = [
+            'order_type'      => 1,
+            'order_amount'    => $user['order_amount'],
+            'order_addtime'   => time(),
+            'order_eth_wallet'=> $user['order_eth_wallet'],
+            "order_user_id"   => $userInfo
+        ];
+
+        Db::name('order')->insert($user);
+        
+        return 0;
+        
+    }
+
+
+    //提现
+    public function wthdrawals_operation($user)
+    {
+
+        $userInfo=cmf_get_current_user_id();
+
+
+        $user   = [
+            'order_type'      => 2,
+            'order_amount'    => $user['order_amount'],
+            'order_addtime'   => time(),
+            'order_eth_wallet'=> $user['order_eth_wallet'],
+            "order_user_id"   => $userInfo
+        ];
+
+        Db::name('order')->insert($user);
+        
+        return 0;
+        
+    }
+    
+
+}

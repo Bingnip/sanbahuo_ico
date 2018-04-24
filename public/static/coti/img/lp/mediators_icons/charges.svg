@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="58px" viewBox="0 0 76 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Unauthorized charges-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="86.9927813%" y1="0%" x2="13.506284%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2CBFDF" offset="0%"></stop>
+            <stop stop-color="#2C9CDF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unauthorized-charges-small">
+            <path d="M21,1.5 C18.5147186,1.5 16.5,3.51471863 16.5,6 L16.5,52 C16.5,54.4852814 18.5147186,56.5 21,56.5 L46.0555556,56.5 C48.5408369,56.5 50.5555556,54.4852814 50.5555556,52 L50.5555556,6 C50.5555556,3.51471863 48.5408369,1.5 46.0555556,1.5 L21,1.5 Z" id="Rectangle-5" stroke="url(#linearGradient-1)" stroke-width="3"></path>
+            <g id="Group-25" transform="translate(22.000000, 18.000000)" fill="#FF6820" fill-rule="nonzero">
+                <path d="M11,22 C4.92486775,22 0,17.0751322 0,11 C0,4.92486775 4.92486775,0 11,0 C17.0751322,0 22,4.92486775 22,11 C22,17.0751322 17.0751322,22 11,22 Z M11,19.4857143 C15.6865306,19.4857143 19.4857143,15.6865306 19.4857143,11 C19.4857143,6.31346941 15.6865306,2.51428571 11,2.51428571 C6.31346941,2.51428571 2.51428571,6.31346941 2.51428571,11 C2.51428571,15.6865306 6.31346941,19.4857143 11,19.4857143 Z" id="Oval-10"></path>
+            </g>
+            <g id="Group-9" transform="translate(32.838835, 28.838835) rotate(-315.000000) translate(-32.838835, -28.838835) translate(26.338835, 22.838835)" fill="#FF6820">
+                <rect id="Rectangle-6" x="5" y="0" width="3" height="12" rx="1.5"></rect>
+                <rect id="Rectangle-6" transform="translate(6.500000, 6.000000) rotate(-270.000000) translate(-6.500000, -6.000000) " x="5" y="0" width="3" height="12" rx="1.5"></rect>
+            </g>
+            <path d="M1.5,27 L13,27 L13,30 L1.5,30 C0.671572875,30 1.01453063e-16,29.3284271 0,28.5 L0,28.5 C-1.01453063e-16,27.6715729 0.671572875,27 1.5,27 Z" id="Rectangle-7" fill="#FF6820"></path>
+            <g id="Group-8" transform="translate(54.000000, 27.000000)">
+                <path d="M2,1.5 L16,1.5" id="Line-5-Copy-2" stroke="#FF6820" stroke-width="3" stroke-linecap="round"></path>
+                <path id="Line-5-Copy-2-decoration-1" d="M16,1.5 L5.2,-1.5 L5.2,4.5 L16,1.5 Z" stroke="#FF6820" stroke-width="3" stroke-linecap="round"></path>
+                <polygon id="Rectangle-7-Copy" fill="#FF6820" points="0 0 11 0 11 3 0 3"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

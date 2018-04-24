@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>lang</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lang" transform="translate(1.000000, 1.000000)" fill="#BECCDE" fill-rule="nonzero">
+            <path d="M7,14.5 C2.85786438,14.5 -0.5,11.1421356 -0.5,7 C-0.5,2.85786438 2.85786438,-0.5 7,-0.5 C11.1421356,-0.5 14.5,2.85786438 14.5,7 C14.5,11.1421356 11.1421356,14.5 7,14.5 Z M7,13.5 C10.5898509,13.5 13.5,10.5898509 13.5,7 C13.5,3.41014913 10.5898509,0.5 7,0.5 C3.41014913,0.5 0.5,3.41014913 0.5,7 C0.5,10.5898509 3.41014913,13.5 7,13.5 Z" id="Oval-5"></path>
+            <path d="M7,14.5 C4.95116736,14.5 3.5,11.1139428 3.5,7 C3.5,2.88605717 4.95116736,-0.5 7,-0.5 C9.04883264,-0.5 10.5,2.88605717 10.5,7 C10.5,11.1139428 9.04883264,14.5 7,14.5 Z M7,13.5 C8.26487586,13.5 9.5,10.6180437 9.5,7 C9.5,3.38195633 8.26487586,0.5 7,0.5 C5.73512414,0.5 4.5,3.38195633 4.5,7 C4.5,10.6180437 5.73512414,13.5 7,13.5 Z" id="Oval-5"></path>
+            <polygon id="Line-5" points="13.5 8.5 13.5 9.5 0.5 9.5 0.5 8.5"></polygon>
+            <polygon id="Line-5" points="13.5 4.5 13.5 5.5 0.5 5.5 0.5 4.5"></polygon>
+        </g>
+    </g>
+</svg>

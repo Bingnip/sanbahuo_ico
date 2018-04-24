@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta id="pagemeta" page="mediators" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="apple-touch-icon" sizes="180x180" href="__STATIC__/coti/img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="__STATIC__/coti/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="__STATIC__/coti/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="__STATIC__/coti/img/favicon/manifest.json" />
+  <link rel="mask-icon" href="__STATIC__/coti/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+  <title>COTI - Mediators</title>
+  <script type="text/javascript">
+       document.querySelector('html').style.opacity = 0
+   
+       document.addEventListener('DOMContentLoaded', function(event) {
+         window.addEventListener('load', function() {
+           document.querySelector('html').style.opacity = 100
+         })
+       })
+     </script>
+  <meta name="description" content="COTI - Currency of the Internet" />
+  <meta name="keywords" content="COTI, crypto, cryptocurrency, currency, payment processing, ico, ige" />
+  <meta name="revisit-after" content="1 days" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <link rel="author" content="COTI Inc." />
+  <link rel="publisher" content="COTI Inc." />
+  <meta property="og:title" content="COTI - Currency of the Internet" />
+  <meta property="og:description" content="A digital currency built for payments" />
+  <meta property="og:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta property="og:url" content="//coti.io" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:title" content="COTI - Currency of the Internet" />
+  <meta name="twitter:description" content="A digital currency built for payments" />
+  <meta name="twitter:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta name="twitter:url" content="//coti.io" />
+  <meta name="twitter:card" content="player" />
+  <link rel="stylesheet" type="text/css" href="__STATIC__/coti/css/mediators.css?v=871efc6d540" />
+ </head>
+ <body>
+  <include file="coti_public@header">
+  <div class="successful-container">
+   <div class="successful-bg">
+    <img src="__STATIC__/coti/en/img/successful-white.png" />
+    <p>Your registration was successful!</p>
+    <img src="__STATIC__/coti/en/img/close-lightgreen.png" id="close-tooltip1" />
+   </div>
+   <div class="error-bg">
+    <p>Some required information is missing or incomplete.<br />Please correct your entries and try again.</p>
+    <img src="__STATIC__/coti/en/img/close-lightgreen.png" id="close-tooltip2" />
+   </div>
+  </div>
+  <section id="mediators-header">
+   <div class="header-content">
+    <div class="left">
+     <h1>Become a COTI mediator, help solve disputes and receive payouts</h1>
+     <h4>COTI’s Mediation System is first in class</h4>
+     <h3>In order to provide buyers and sellers with protections against errors, fraud and counterparty abuse, COTI’s Mediation System is tasked with resolving disputes within the network.</h3>
+    </div>
+    <div class="right">
+     <div class="form-container">
+      <form id="form-lp" name="mediator">
+       <p>Please fill in the following details:</p>
+       <input type="text" name="fullname" placeholder="Full name" /> 
+       <input type="email" name="email" placeholder="Email" />
+       <select id="countriesWrapper" name="country" placeholder="Email"><option value="reset" disabled="" selected="">Country</option></select>
+       <input type="text" name="birthdate" placeholder="Date of birth" onfocus="this.type='date'; this.setAttribute('onfocus','');this.blur();this.focus();" />
+       <select name="nativeLanguage" data-placeholder="Native language:"><option disabled="" selected="" value="reset">Native language:</option><option value="Afrikanns">Afrikanns</option><option value="Albanian">Albanian</option><option value="Arabic">Arabic</option><option value="Armenian">Armenian</option><option value="Basque">Basque</option><option value="Bengali">Bengali</option><option value="Bulgarian">Bulgarian</option><option value="Catalan">Catalan</option><option value="Cambodian">Cambodian</option><option value="Chinese">Chinese</option><option value="Croation">Croation</option><option value="Czech">Czech</option><option value="Danish">Danish</option><option value="Dutch">Dutch</option><option value="English">English</option><option value="Estonian">Estonian</option><option value="Fiji">Fiji</option><option value="Finnish">Finnish</option><option value="French">French</option><option value="Georgian">Georgian</option><option value="German">German</option><option value="Greek">Greek</option><option value="Gujarati">Gujarati</option><option value="Hebrew">Hebrew</option><option value="Hindi">Hindi</option><option value="Hungarian">Hungarian</option><option value="Icelandic">Icelandic</option><option value="Indonesian">Indonesian</option><option value="Irish">Irish</option><option value="Italian">Italian</option><option value="Japanese">Japanese</option><option value="Javanese">Javanese</option><option value="Korean">Korean</option><option value="Latin">Latin</option><option value="Latvian">Latvian</option><option value="Lithuanian">Lithuanian</option><option value="Macedonian">Macedonian</option><option value="Malay">Malay</option><option value="Malayalam">Malayalam</option><option value="Maltese">Maltese</option><option value="Maori">Maori</option><option value="Marathi">Marathi</option><option value="Mongolian">Mongolian</option><option value="Nepali">Nepali</option><option value="Norwegian">Norwegian</option><option value="Persian">Persian</option><option value="Polish">Polish</option><option value="Portuguese">Portuguese</option><option value="Punjabi">Punjabi</option><option value="Quechua">Quechua</option><option value="Romanian">Romanian</option><option value="Russian">Russian</option><option value="Samoan">Samoan</option><option value="Serbian">Serbian</option><option value="Slovak">Slovak</option><option value="Slovenian">Slovenian</option><option value="Spanish">Spanish</option><option value="Swahili">Swahili</option><option value="Swedish">Swedish</option><option value="Tamil">Tamil</option><option value="Tatar">Tatar</option><option value="Telugu">Telugu</option><option value="Thai">Thai</option><option value="Tibetan">Tibetan</option><option value="Tonga">Tonga</option><option value="Turkish">Turkish</option><option value="Ukranian">Ukranian</option><option value="Urdu">Urdu</option><option value="Uzbek">Uzbek</option><option value="Vietnamese">Vietnamese</option><option value="Welsh">Welsh</option><option value="Xhosa">Xhosa</option></select>
+       <label for="terms">
+        <div class="custome-cb"></div><input type="checkbox" name="terms" id="terms" /> I agree to COTI's website <a href="{:url('Terms/index')}" target="_blank">terms of use</a></label> 
+       <button type="submit" onclick="track(&quot;Mediators Submit&quot;, {placement: &quot;form&quot;})">Apply now</button>
+      </form>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="become">
+   <h1>Become a COTI mediator today</h1>
+   <div class="content">
+    <div class="left">
+     <p>As a COTI mediator you will be paid in COTI tokens for each instance in which you successfully resolve buyer-seller disputes. In the event of effectively contributing to a mediated outcome, COTI mediators will also be incentivised with higher Trust Scores.</p>
+     <p><b>By becoming a COTI mediator, you will receive:</b></p>
+     <ul>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Rewards in COTI’s native currency, which you can spend on online shopping</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Improved Trust Scores</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />The satisfaction of helping other users to solve disputes</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Work from home and in your spare time!</li>
+     </ul>
+     <div class="apply-wrapper">
+      <button type="submit" class="btn-custome btn-scroll" onclick="track(&quot;Mediators Scrolltop&quot;, {placement: &quot;form&quot;})">Apply now</button>
+     </div>
+    </div>
+    <div class="right">
+     <div class="become-img"></div>
+    </div>
+   </div>
+  </section>
+  <section id="scenarios">
+   <h1>Typical scenarios requiring mediation</h1>
+   <div class="content">
+    <div class="left">
+     <div class="mediators-boxs">
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/billing.svg" />
+       <p>Billing errors</p>
+      </div>
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/transfers.svg" />
+       <p>Inadvertent transfers</p>
+      </div>
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/charges.svg" />
+       <p>Unauthorized charges</p>
+      </div>
+     </div>
+     <div class="mediators-boxs">
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/undelivered.svg" />
+       <p>Undelivered goods or services</p>
+      </div>
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/non-conforming.svg" />
+       <p>Non-conforming goods or services</p>
+      </div>
+     </div>
+    </div>
+    <div class="right">
+     <div class="scenario-list">
+      <p>To be approved as a COTI mediator, you must:</p>
+      <ul>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Be at least 18 years of age</li>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Have a clean criminal background with no previous convictions</li>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Consent to the COTI privacy policy</li>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Submit identity verification documents</li>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Undergo an online assessment to determine that you have the aptitude to perform the mediation tasks at a high standard.</li>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Be a member of the COTI network (e.g., COTI wallet holder or COTI token holder)</li>
+       <li><img src="__STATIC__/coti/en/img/check-green.svg" />Demonstrate basic English language proficiency</li>
+      </ul>
+      <div class="apply-wrapper">
+       <button type="submit" class="btn-custome btn-scroll" onclick="track(&quot;Mediators Scrolltop&quot;, {placement: &quot;form&quot;})">Apply now</button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="claims">
+    COTI endeavours to make mediation open to a broad group of people and will make available online training programs that can assist candidates in acquiring the requisite knowledge for contributing to the dispute resolution process effectively.
+   </div>
+  </section>
+  <include file="coti_public@footer">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" async="">
+      /**/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="coti.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();/**/
+    </script>
+  <script type="text/javascript" async="">
+      document.addEventListener('DOMContentLoaded', function(event) {
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+          analytics.load("mfrbj31pM9eetiPaEV67K2RtJbJ8YbVK");
+          analytics.page(document.getElementById('pagemeta').getAttribute('page'));
+        }}();
+      })
+    </script>
+  <script type="text/javascript" id="hs-script-loader" async="" defer="" src="https://js.hs-scripts.com/3892220.js"></script>
+  <script type="text/javascript" src="https://coti.io/en/js/application.js?v=871efc6d540&quot;"></script>
+ </body>
+</html>

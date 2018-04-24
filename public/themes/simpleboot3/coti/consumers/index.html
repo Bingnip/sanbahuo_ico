@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta id="pagemeta" page="consumers" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="apple-touch-icon" sizes="180x180" href="__STATIC__/coti/img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="__STATIC__/coti/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="__STATIC__/coti/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="__STATIC__/coti/img/favicon/manifest.json" />
+  <link rel="mask-icon" href="__STATIC__/coti/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+  <title>COTI - Consumers</title>
+  <script type="text/javascript">
+       document.querySelector('html').style.opacity = 0
+   
+       document.addEventListener('DOMContentLoaded', function(event) {
+         window.addEventListener('load', function() {
+           document.querySelector('html').style.opacity = 100
+         })
+       })
+     </script>
+  <meta name="description" content="COTI - Currency of the Internet" />
+  <meta name="keywords" content="COTI, crypto, cryptocurrency, currency, payment processing, ico, ige" />
+  <meta name="revisit-after" content="1 days" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <link rel="author" content="COTI Inc." />
+  <link rel="publisher" content="COTI Inc." />
+  <meta property="og:title" content="COTI - Currency of the Internet" />
+  <meta property="og:description" content="A digital currency built for payments" />
+  <meta property="og:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta property="og:url" content="//coti.io" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:title" content="COTI - Currency of the Internet" />
+  <meta name="twitter:description" content="A digital currency built for payments" />
+  <meta name="twitter:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta name="twitter:url" content="//coti.io" />
+  <meta name="twitter:card" content="player" />
+  <link rel="stylesheet" type="text/css" href="__STATIC__/coti/css/consumers.css?v=871efc33f48" />
+ </head>
+ <body>
+ <include file="coti_public@header">
+  <div class="successful-container">
+   <div class="successful-bg">
+    <img src="__STATIC__/coti/en/img/successful-white.png" />
+    <p>Your registration was successful!</p>
+    <img src="__STATIC__/coti/en/img/close-lightgreen.png" id="close-tooltip1" />
+   </div>
+   <div class="error-bg">
+    <p>Some required information is missing or incomplete.<br />Please correct your entries and try again.</p>
+    <img src="__STATIC__/coti/en/img/close-lightgreen.png" id="close-tooltip2" />
+   </div>
+  </div>
+  <section id="users-header">
+   <div class="header-content">
+    <div class="left">
+     <h1>Join the COTI network, claim your<b>&nbsp; FREE COTI COINS &nbsp;</b>and begin spending them online!</h1>
+     <h4>Sign up now to reserve your COTI wallet and receive<b>&nbsp;100 COTI COINS for FREE.&nbsp;</b>Your COTI coins can be used online to pay for any number of products and services.</h4>
+    </div>
+    <div class="right">
+     <div class="form-container">
+      <form id="form-lp" name="consumer">
+       <p>Please fill in the following details:</p>
+       <input type="text" name="fullname" placeholder="Full name" /> 
+       <input type="email" name="email" placeholder="Email" />
+       <select id="countriesWrapper" name="country" placeholder="Country"><option value="reset" disabled="" selected="">Country</option></select>
+       <label for="terms">
+        <div class="custome-cb"></div><input type="checkbox" name="terms" id="terms" /> I agree to COTI's website <a href="{:url('Terms/index')}" target="_blank">terms of use</a></label> 
+       <button type="submit" onclick="track(&quot;Consumers Submit&quot;, {placement: &quot;form&quot;})">Apply now</button>
+      </form>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="why">
+   <div class="content">
+    <div class="left">
+     <div class="why-img"></div>
+    </div>
+    <div class="right">
+     <h1>Why COTI?</h1>
+     <p>COTI is the fastest and most user-friendly network built for payments. COTI enables you to transact globally using a secure, instant, low-to-zero fee system backed by a robust Trust Scoring Engine and decentralised buyer-seller protections!</p>
+     <p><b>COTI’s advantages:</b></p>
+     <ul>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Instant</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Low-to-zero fees</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Scalable</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Buyer-seller protections</li>
+      <li><img src="__STATIC__/coti/en/img/check-green.svg" />Easy to use</li>
+     </ul>
+     <div class="apply-wrapper">
+      <button type="submit" class="btn-custome btn-scroll" onclick="track(&quot;Consumers Scrolltop&quot;, {placement: &quot;form&quot;})">Claim your free COTI</button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <include file="coti_public@footer">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" async="">
+      /**/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="coti.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();/**/
+    </script>
+  <script type="text/javascript" async="">
+      document.addEventListener('DOMContentLoaded', function(event) {
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+          analytics.load("mfrbj31pM9eetiPaEV67K2RtJbJ8YbVK");
+          analytics.page(document.getElementById('pagemeta').getAttribute('page'));
+        }}();
+      })
+    </script>
+  <script type="text/javascript" id="hs-script-loader" async="" defer="" src="https://js.hs-scripts.com/3892220.js"></script>
+  <script type="text/javascript" src="https://coti.io/en/js/application.js?v=871efc33f48&quot;"></script>
+ </body>
+</html>
