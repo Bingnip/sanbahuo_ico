@@ -15,22 +15,23 @@
    </ul>
   </div>
   <nav>
-   <div class="nav-bar">
+   <div id='navbar' class="nav-bar">
     <a href="{:url('/coti/index/index',['lang'=>'ja'])}">
      <div id="nav-logo-color" class="nav-logo"></div>
      <div id="nav-logo-white" class="nav-logo"></div></a>
     <ul id="langs-mobile">
-     <a><li id="langs"><a>
+      <a><li id="langs"><a>
         <div id="langIcon"></div>
-        <div id="langName">"ja"</div><span></span>
+        <div id="langName">"ja"</div>
+        <span></span>
       </a>
        <ul class="navbar-dropdown">
-        <li><a name="en" onclick="track(&quot;enLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="img/flags/gb.png" width="40px" /> English</a></li>
-        <li><a name="es" onclick="track(&quot;esLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="img/flags/es.png" width="40px" /> Espa&ntilde;ol</a></li>
-        <li><a name="ru" onclick="track(&quot;ruLnag Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="img/flags/ru.png" width="40px" /> Русский</a></li>
-        <li><a name="cn" onclick="track(&quot;chLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="img/flags/cn.png" width="40px" /> 简体中文</a></li>
-        <li><a name="ko" onclick="track(&quot;koLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="img/flags/kr.png" width="40px" /> 조선말</a></li>
-        <li><a name="ja" onclick="track(&quot;jaLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="img/flags/jp.png" width="40px" /> 日本語</a></li>
+        <li><a name="en" onclick="track(&quot;enLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/gb.png" width="40px" /> English</a></li>
+        <li><a name="es" onclick="track(&quot;esLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/es.png" width="40px" /> Espa&ntilde;ol</a></li>
+        <li><a name="ru" onclick="track(&quot;ruLnag Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/ru.png" width="40px" /> Русский</a></li>
+        <li><a name="cn" onclick="track(&quot;chLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/cn.png" width="40px" /> 简体中文</a></li>
+        <li><a name="ko" onclick="track(&quot;koLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/kr.png" width="40px" /> 조선말</a></li>
+        <li><a name="ja" onclick="track(&quot;jaLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/jp.png" width="40px" /> 日本語</a></li>
        </ul></li></a>
     </ul>
     <ul>
@@ -52,9 +53,7 @@
       </ul></li>
      <li id="langs"><a>
        <div id="langIcon"></div>
-       <div id="langName">
-        ja
-        <span></span>
+       <div id="langName">ja<span></span>
        </div></a>
       <ul class="navbar-dropdown">
        <li><a name="en" href="{:url('/coti/index/index')}" onclick="track(&quot;enLang Redirect&quot;, {placement: &quot;Nav&quot;})"><img src="__STATIC__/coti/img/flags/gb.png" width="40px" /> English</a></li>
@@ -76,4 +75,15 @@
     <i id="nav-menu-button" class="nav-menu-button fa fa-bars"></i>
    </div>
   </nav>
+  <script type="text/javascript">
+  window.onscroll = function () {
+    var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+    if(scrollTop>60){
+      var navbar = document.getElementById('navbar').setAttribute('class','nav-bar nav-up');
+    }
+    if(scrollTop<=59){
+      var navbar = document.getElementById('navbar').setAttribute('class','nav-bar');
+    }
+}
+</script>
 </header>

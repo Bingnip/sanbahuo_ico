@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta id="pagemeta" page="mediators" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="apple-touch-icon" sizes="180x180" href="__STATIC__/coti/img/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="__STATIC__/coti/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="__STATIC__/coti/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="__STATIC__/coti/img/favicon/manifest.json" />
+  <link rel="mask-icon" href="__STATIC__/coti/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+  <title>COTI - メディエーター</title>
+  <script type="text/javascript">
+       document.querySelector('html').style.opacity = 0
+   
+       document.addEventListener('DOMContentLoaded', function(event) {
+         window.addEventListener('load', function() {
+           document.querySelector('html').style.opacity = 100
+         })
+       })
+     </script>
+  <meta name="description" content="COTI - Currency of the Internet" />
+  <meta name="keywords" content="COTI, crypto, cryptocurrency, currency, payment processing, ico, ige" />
+  <meta name="revisit-after" content="1 days" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <link rel="author" content="COTI Inc." />
+  <link rel="publisher" content="COTI Inc." />
+  <meta property="og:title" content="COTI - Currency of the Internet" />
+  <meta property="og:description" content="A digital currency built for payments" />
+  <meta property="og:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta property="og:url" content="//coti.io" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:title" content="COTI - Currency of the Internet" />
+  <meta name="twitter:description" content="A digital currency built for payments" />
+  <meta name="twitter:image" content="//coti.io/img/coti-meta-tag.jpg" />
+  <meta name="twitter:url" content="//coti.io" />
+  <meta name="twitter:card" content="player" />
+  <link rel="stylesheet" type="text/css" href="__STATIC__/coti/css/mediators.css?v=901e42471f8" />
+ </head>
+ <body>
+  <include file="coti_public@header_ja">
+  <div class="successful-container">
+   <div class="successful-bg">
+    <img src="img/successful-white.png" />
+    <p>登録が完了しました！</p>
+    <img src="img/close-lightgreen.png" id="close-tooltip1" />
+   </div>
+   <div class="error-bg">
+    <p>必要な情報が不足している、もしくは不完全です。<br />入力内容を修正してから、もう一度お試しください。</p>
+    <img src="img/close-lightgreen.png" id="close-tooltip2" />
+   </div>
+  </div>
+  <section id="mediators-header">
+   <div class="header-content">
+    <div class="left">
+     <h1>COTIメディエーターになり、紛争解決を手伝うことで配当を受けることができます</h1>
+     <h4>COTIの仲介システムは一流です</h4>
+     <h3>買い手と売り手をエラー・不正・取引相手からの不履行などから守るために、COTIの仲介システムはネットワーク内で紛争解決できるように設計されています。</h3>
+    </div>
+    <div class="right">
+     <div class="form-container">
+      <form id="form-lp" name="mediator">
+       <p>以下の項目を記入してください：</p>
+       <input type="text" name="fullname" placeholder="氏名" /> 
+       <input type="email" name="email" placeholder="Eメールアドレス" />
+       <select id="countriesWrapper" name="country" placeholder="Eメールアドレス"><option value="reset" disabled="" selected="">国</option></select>
+       <input type="text" name="birthdate" placeholder="生年月日" onfocus="this.type='date'; this.setAttribute('onfocus','');this.blur();this.focus();" />
+       <select name="nativeLanguage" data-placeholder="Native language:"><option disabled="" selected="" value="reset">母国語:</option><option value="Afrikanns">Afrikanns</option><option value="Albanian">Albanian</option><option value="Arabic">Arabic</option><option value="Armenian">Armenian</option><option value="Basque">Basque</option><option value="Bengali">Bengali</option><option value="Bulgarian">Bulgarian</option><option value="Catalan">Catalan</option><option value="Cambodian">Cambodian</option><option value="Chinese">Chinese</option><option value="Croation">Croation</option><option value="Czech">Czech</option><option value="Danish">Danish</option><option value="Dutch">Dutch</option><option value="English">English</option><option value="Estonian">Estonian</option><option value="Fiji">Fiji</option><option value="Finnish">Finnish</option><option value="French">French</option><option value="Georgian">Georgian</option><option value="German">German</option><option value="Greek">Greek</option><option value="Gujarati">Gujarati</option><option value="Hebrew">Hebrew</option><option value="Hindi">Hindi</option><option value="Hungarian">Hungarian</option><option value="Icelandic">Icelandic</option><option value="Indonesian">Indonesian</option><option value="Irish">Irish</option><option value="Italian">Italian</option><option value="Japanese">Japanese</option><option value="Javanese">Javanese</option><option value="Korean">Korean</option><option value="Latin">Latin</option><option value="Latvian">Latvian</option><option value="Lithuanian">Lithuanian</option><option value="Macedonian">Macedonian</option><option value="Malay">Malay</option><option value="Malayalam">Malayalam</option><option value="Maltese">Maltese</option><option value="Maori">Maori</option><option value="Marathi">Marathi</option><option value="Mongolian">Mongolian</option><option value="Nepali">Nepali</option><option value="Norwegian">Norwegian</option><option value="Persian">Persian</option><option value="Polish">Polish</option><option value="Portuguese">Portuguese</option><option value="Punjabi">Punjabi</option><option value="Quechua">Quechua</option><option value="Romanian">Romanian</option><option value="Russian">Russian</option><option value="Samoan">Samoan</option><option value="Serbian">Serbian</option><option value="Slovak">Slovak</option><option value="Slovenian">Slovenian</option><option value="Spanish">Spanish</option><option value="Swahili">Swahili</option><option value="Swedish">Swedish</option><option value="Tamil">Tamil</option><option value="Tatar">Tatar</option><option value="Telugu">Telugu</option><option value="Thai">Thai</option><option value="Tibetan">Tibetan</option><option value="Tonga">Tonga</option><option value="Turkish">Turkish</option><option value="Ukranian">Ukranian</option><option value="Urdu">Urdu</option><option value="Uzbek">Uzbek</option><option value="Vietnamese">Vietnamese</option><option value="Welsh">Welsh</option><option value="Xhosa">Xhosa</option></select>
+       <label for="terms">
+        <div class="custome-cb"></div><input type="checkbox" name="terms" id="terms" /> COTIのウェブサイトに同意します <a href="https://coti.io/ja/terms.html" target="_blank">利用規約</a></label>
+       <div class="g-recaptcha" id="recaptcha_element"></div>
+       <button type="submit" onclick="track(&quot;Mediators Submit&quot;, {placement: &quot;form&quot;})">申し込む</button>
+      </form>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="become">
+   <h1>今すぐCOTIメディエーターになりましょう</h1>
+   <div class="content">
+    <div class="left">
+     <p>COTIメディエーターとして、買い手と売り手の紛争解決に成功する度に報酬がCOTIトークンで支払われます。仲介結果に効果的に貢献すると、COTIメディエーターのTrust Score（トラストスコア）が上がりますので、これもモチベーションにつながります。</p>
+     <p><b>COTIメディエーターになることで、あなたが受け取る物：</b></p>
+     <ul>
+      <li><img src="__STATIC__/coti/img/check-green.svg" />オンラインショッピングで利用出来るCOTIネイティブ通貨の報酬</li>
+      <li><img src="__STATIC__/coti/img/check-green.svg" />Trust Scoresの増加</li>
+      <li><img src="__STATIC__/coti/img/check-green.svg" />他のユーザーの紛争解決を支援する満足感</li>
+      <li><img src="__STATIC__/coti/img/check-green.svg" />自宅に居ながら空き時間に仕事が出来ます！</li>
+     </ul>
+     <div class="apply-wrapper">
+      <button type="submit" class="btn-custome btn-scroll" onclick="track(&quot;Mediators Scrolltop&quot;, {placement: &quot;form&quot;})">申し込む</button>
+     </div>
+    </div>
+    <div class="right">
+     <div class="become-img"></div>
+    </div>
+   </div>
+  </section>
+  <section id="scenarios">
+   <h1>仲介（メディエーション）を必要とする典型的なシナリオ</h1>
+   <div class="content">
+    <div class="left">
+     <div class="mediators-boxs">
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/billing.svg" />
+       <p>請求エラー</p>
+      </div>
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/transfers.svg" />
+       <p>偶発的な転送</p>
+      </div>
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/charges.svg" />
+       <p>不正請求</p>
+      </div>
+     </div>
+     <div class="mediators-boxs">
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/undelivered.svg" />
+       <p>未提供の商品またはサービス</p>
+      </div>
+      <div class="mediators-box">
+       <img src="__STATIC__/coti/img/lp/mediators_icons/non-conforming.svg" />
+       <p>不適合商品またはサービス</p>
+      </div>
+     </div>
+    </div>
+    <div class="right">
+     <div class="scenario-list">
+      <p>COTIメディエーターとして承認されるために必要なこと：</p>
+      <ul>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />18歳以上であること</li>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />犯罪歴がないこと</li>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />COTIプライバシーポリシーに同意すること</li>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />身元確認書を提出すること</li>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />オンラインテストを受けて、仲介業務を高い水準で実行する適性の有無を確認します。</li>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />COTIネットワークのメンバーになること（例: COTIウォレットホルダーもしくはCOTIトークンホルダー）</li>
+       <li><img src="__STATIC__/coti/img/check-green.svg" />基本的な英語のスキルを証明すること</li>
+      </ul>
+      <div class="apply-wrapper">
+       <button type="submit" class="btn-custome btn-scroll" onclick="track(&quot;Mediators Scrolltop&quot;, {placement: &quot;form&quot;})">申し込む</button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="claims">
+    COTIは、仲介（メディエーション）を幅広い人々が利用出来るようにすると共に、効果的な紛争解決プロセスへの貢献に必要な知識が取得できる、オンライントレーニングプログラムを提供する予定です。
+   </div>
+  </section>
+  <include file="coti_public@footer_ja">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" async="">
+      /**/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="coti.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();/**/
+    </script>
+  <script type="text/javascript" async="">
+      document.addEventListener('DOMContentLoaded', function(event) {
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+          analytics.load("mfrbj31pM9eetiPaEV67K2RtJbJ8YbVK");
+          analytics.page(document.getElementById('pagemeta').getAttribute('page'));
+        }}();
+      })
+    </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit" async="" defer=""> </script>
+  <script type="text/javascript" id="hs-script-loader" async="" defer="" src="//js.hs-scripts.com/3892220.js"></script>
+  <script type="text/javascript" src="https://coti.io/en/js/application.js?v=901e42471f8&quot;"></script>
+ </body>
+</html>
